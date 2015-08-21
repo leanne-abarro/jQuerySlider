@@ -1,0 +1,45 @@
+h1 {
+	text-align: center;
+}
+
+.container {
+	width: 60em;
+    margin: 0 auto;
+    position: relative;
+}
+
+#slider {
+    width: 45em;
+    height: 25em;
+    overflow: hidden;
+    margin: 5em auto;
+}
+
+#slider .slides {
+    display: block;
+    width: 375em;
+    height: 25em;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 45em;
+    height: 25em;
+}
+
+#nextButton {
+    position: absolute;
+    top: 13em;
+    right: 9em;
+    color: #fff;
+}
+
+#prevButton {
+    position: absolute;
+    top: 13em;
+    left: 9em;
+    color: #fff;
+}
